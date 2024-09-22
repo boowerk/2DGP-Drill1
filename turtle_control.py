@@ -15,6 +15,11 @@ def move_s():
     turtle.stamp()
     turtle.forward(50)
 
+def move_d():
+    turtle.setheading(0)
+    turtle.stamp()
+    turtle.forward(50)
+
 def restart():
     turtle.reset()
 
@@ -24,6 +29,7 @@ turtle.onkey(restart, 'Escape')
 turtle.onkey(move_w,'w')
 turtle.onkey(move_a,'a')
 turtle.onkey(move_s,'s')
+turtle.onkey(move_d,'d')
 turtle.listen()
 
 turtle.mainloop()
