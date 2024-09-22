@@ -25,6 +25,7 @@ def restart():
 
 turtle.shape('turtle')
 
+
 turtle.onkey(restart, 'Escape')
 turtle.onkey(move_w,'w')
 turtle.onkey(move_a,'a')
